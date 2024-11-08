@@ -22,7 +22,7 @@ function Date(props) {
     )
 }
 
-function InfoButton() {
+function InfoButton(props) {
     return (
         <a src={props.src}>Подробнее</a>
     )
