@@ -1,3 +1,5 @@
+@import url(../vendor/fonts.css);
+
 p {
     margin: 0;
 }
@@ -9,6 +11,7 @@ h3 {
 .body {
     background-color: #f1f1f1;
     margin: 0;
+    font-family: 'Inter', Arial, sans-serif;
 }
 
 .list {
@@ -44,4 +47,16 @@ h3 {
 
 .card__name {
     font-size: 12px;
+}
+
+
+.card__button {
+    background-color: #56a7f1;
+    align-self: center;
+    justify-self: center;
+    width: 140px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    min-height: 30px
 }

@@ -24,7 +24,7 @@ function Date(props) {
 
 function InfoButton(props) {
     return (
-        <a src={props.src}>Подробнее</a>
+        <button className="card__button" type="button">Подробнее</button>
     )
 }
 
