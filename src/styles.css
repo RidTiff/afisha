@@ -12,12 +12,14 @@ h3 {
 }
 
 .list {
+    margin-top: 40px;
     width: 320px;
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-content: center;
+    align-self: center;
 }
 
 .card {
@@ -33,8 +35,8 @@ h3 {
 }
 
 .card__img {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 140px;
+    max-height: 120px;
     align-self: center;
     justify-self: center;
 }
