@@ -16,16 +16,20 @@ h3 {
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-content: center;
 }
 
 .card {
     background-color: white;
     border-radius: 5%;
-    min-height: 250px;
+    min-height: 230px;
     display: grid;
     grid-template-columns: minmax(min-content, max-content);
+    grid-template-rows: 50% 2fr 1fr 1fr 1fr;
     gap: 2px;
     padding: 10px;
+    font-size: 10px;
 }
 
 .card__img {
@@ -33,4 +37,8 @@ h3 {
     max-height: 100px;
     align-self: center;
     justify-self: center;
+}
+
+.card__name {
+    font-size: 12px;
 }
