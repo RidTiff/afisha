@@ -1,3 +1,11 @@
+p {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
 .body {
     background-color: #f1f1f1;
     margin: 0;
@@ -14,6 +22,10 @@
     border-radius: 5%;
     min-height: 250px;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(min-content, max-content);
     gap: 5px;
+}
+
+.img {
+    max-width: 100%;
 }
