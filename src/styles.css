@@ -41,7 +41,6 @@ h3 {
 .card__img {
     max-width: 140px;
     max-height: 120px;
-    align-self: center;
     justify-self: center;
 }
 
