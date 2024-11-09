@@ -39,5 +39,15 @@ function Card(props) {
     </section>)
 }
 
+function Page() {
+    return (
+        <main className="list">
+            <Card img='../img/card__dvor.jpg' name='Дворянское воспитание. Обычаи и традиции' place='Остафьево' date='Идёт сейчас, до: 24.11.2024' src='#'/>
+            <Card img='../img/card__dvor.jpg' name='Иосиф Бродский. Место не хуже любого' place='Еврейский музей и центр толерантности' date='Идёт сейчас, до: 12.01.2025' src='#'/>
+            <Card img='../img/card__dvor.jpg' name='Любовь Рыбакова. Солнечная пастель' place='Остафьево' date='Идёт сейчас, до: 12.01.2025' src='#'/>
+            <Card img='../img/card__dvor.jpg' name='В ожидании чуда. Посвящение Марку Шагалу' place='Еврейский музей и центр толерантности' date='Идёт сейчас, до: 12.01.2025' src='#'/>
+        </main>
+    )
+}
   
-ReactDOM.render(<Card img='../img/card__img.jpg' name='Дворянское воспитание. Обычаи и традиции' place='Остафьево' date='Идёт сейчас, до: 24.11.2024' src='#'/>, document.getElementById('app'))
+ReactDOM.render(<Page/>, document.getElementById('app'))

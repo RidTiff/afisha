@@ -1,0 +1,17 @@
+.body {
+    background-color: #f1f1f1;
+}
+
+.list {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.card {
+    background-color: white;
+    border-radius: 50%;
+    min-height: 250px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
