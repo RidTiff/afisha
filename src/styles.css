@@ -12,9 +12,10 @@ h3 {
 }
 
 .list {
+    width: 320px;
     display: grid;
     gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .card {
@@ -24,8 +25,12 @@ h3 {
     display: grid;
     grid-template-columns: minmax(min-content, max-content);
     gap: 2px;
+    padding: 10px;
 }
 
-.img {
-    max-width: 450px;
+.card__img {
+    max-width: 100px;
+    max-height: 100px;
+    align-self: center;
+    justify-self: center;
 }
